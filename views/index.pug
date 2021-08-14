@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+   | integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- internal css  -->
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="static/responsive.css">
+
+  <!-- font-awsome-cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   | integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+   | crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Mahaveer Medicos</title>
+</head>
+
+<body>
+  <!-- top double navbar -->
+  <div class="row g-0 row-double-header">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9 double-header-part-1">
+      <ul class="double-header" id="one">
+        <li class="header-icons">
+          <i class="bi bi-telephone-fill">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2fccd0" class="bi bi-telephone-fill"
+             | viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+  </i>
+    | Call: 123 884400
+  </li>
+        <li class="header-icons">
+          <i class="bi bi-geo-alt-fill">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2fccd0" class="bi bi-geo-alt-fill"
+             | viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+  </i>
+| Mahaveer Medicos, Dwarka New Delhi
+</li>
+        <li class="header-icons">
+          <i class="bi bi-clock">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2fccd0" class="bi bi-clock"
+             | viewBox="0 0 16 16">
+        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+        </svg>
+          </i>
+| Mon - Sun: 10.00am - 11.00pm
+</li>
+        </ul>
+</div>
+
+    <div class="col-sm-0 col-md-0 col-lg-0 col-xl-3 double-header-part-2">
+      <div class="social-menu">
+        <ul class="double-header two">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      </ul>
+    </div>
+    </div>
+<!-- top double navbar end-->
+
+
+  <div class="header" id="topheader">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container text-uppercase p-2">
+
+        <a class="navbar-brand font-weight-bold text-white" href="#aboutusid">mahaveer
+          <i class="fa fa-plus-square text-white fa-lg" aria-hidden="true"></i> medicos </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         | aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-uppercase">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicediv">medicines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricingdiv">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutusid">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactid">Contact</a>
+            </li>
+        </div>
+    </div>
+    </nav>
+    <section class="header-section">
+      <div class="center-div">
+        <h1 class="font-weight-bold">Good Pharmacy</h1>
+        <p>All Medicines Available Now</p>
+        <div class="header-buttons">
+          <a href="#aboutusid">About us</a>
+          <a href="#contactid">Contact</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- ************* Header part end *******  -->
+
+  <!-- *************** three extra header div start *********** -->
+  <section class="header-extradiv">
+    <div class="container">
+      <div class="row">
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-home" aria-hidden="true"></i></a>
+          <h2>HOME DELIVERY</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam modi ipsa laboriosam reprehenderit eligendi itaque. Eos, ab.</p>
+        </div>
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-trophy" aria-hidden="true"></i></a>
+          <h2>GOOD BEHAVIOR</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam modi ipsa laboriosam reprehenderit eligendiitaque. Eos, ab.</p>
+        </div>
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-magic" aria-hidden="true"></i></a>
+          <h2>ALL MEDICINES</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam modi ipsa laboriosam reprehenderit eligendi itaque. Eos, ab.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *************** three extra header div end *********** -->
+
+  <!-- *************** offer section start *********** -->
+  <section class="serviceoffers" id="servicediv">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">WHAT WE STORE IN OUR PHARMACY</h1>
+      <p class="text-center">We have all types of Doctor's Prescribed medicines.</p>
+    </div>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+          <div class="names my-3">
+            <h1>Antibacterials, including antibiotics</h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Pediatric Medications</h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Central Nervous System (CNS) Depressants </h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Inhalants</h1>
+            <div class="progress w-75">
+              <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Pregnancy medicines</h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Multivitamins and Minerals</h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 76%">76%</div>
+            </div>
+          </div>
+          <div class="names my-3">
+            <h1>Narcotic Analgesics</h1>
+            <div class="progress w-75">
+              <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+               | aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 76%">76%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12 servicediv">
+          <div class="row">
+            <div class="col-lg-2 col-2 service-icons">
+              <i class="fa-3x fa fa-handshake-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-10 col-10">
+              <h2>TRUST <span style="font-size: 17px;">|</span> CDSCO Aprroved Medicines Only</h2>
+              <p>We provide accurate, authoritative & trustworthy medicines and help people use their
+               | medicines effectively and safely.</p>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-2 service-icons">
+              <i class="fa-3x fa fa-flask" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-10 col-10">
+              <h2>ASSISTANCE <span style="font-size: 17px;">|</span> Labs Tests & Best Doctors In Area</h2>
+              <p>Health check-ups are very useful in the early detection of all types of illnesses and risk factors.
+               | Simple to understand and less time consuming.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-2 service-icons">
+              <i class="fa-3x fa fa-medkit" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-10 col-10">
+              <h2>TOP QUALITY <span style="font-size: 17px;">|</span> Medical Products and Devices</h2>
+              <p>Shop for Medical Products, Medical Instruments, Medical Equipment, Medical Equipment Accessories and
+               | Medical Devices</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************** offer section end *********** -->
+
+  <!-- *************** project done start *********** -->
+
+  <section class="project-work">
+    <div class="container headings text-center">
+      <p class="text-center font-weight-bold">MORE THAN 2000 Customers</p>
+    </div>
+
+    <div class="container d-flex justify-content-around align-items-center text-center">
+      <div>
+        <h1 class="count">1500</h1>
+        <p>Active Customers</p>
+      </div>
+      <div>
+        <h1 class="count">9000</h1>
+        <p>Medicine Sold</p>
+      </div>
+      <div>
+        <h1 class="count">150</h1>
+        <p>Customers weekly</p>
+      </div>
+      <div>
+        <h1 class="count">700</h1>
+        <p>Days Served</p>
+      </div>
+    </div>
+  </section>
+  <!-- *************** project done end *********** -->
+
+  <!-- *************** our pricing start *********** -->
+  <section class="pricing" id="pricingdiv">
+    <div class="container headings text-center pb-5">
+      <h1 class="text-center font-weight-bold text-white">HEALTH WELLNESS</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="card text-center">
+            <div class="card-header">Body Care</div>
+            <div class="card-body">
+              <li>* <span class="money">10%</span> Discount</li>
+              <li>Clinical soaps</li>
+              <li>medic shampoo</li>
+              <li>Essential oils</li>
+              <li>Top quality products</li>
+              <li>Hair Biotin</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 card-second">
+          <div class="card text-center">
+            <div class="card-header">Skin Care</div>
+            <div class="card-body">
+              <li>* <span class="money">05%</span> Discount</li>
+              <li>Clinical soaps</li>
+              <li>medic shampoo</li>
+              <li>Essential oils</li>
+              <li>Top quality products</li>
+              <li>Hair Biotin</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="card text-center">
+            <div class="card-header">Ayurveda</div>
+            <div class="card-body">
+              <li>* <span class="money">20₹</span> Discount</li>
+              <li>Clinical soaps</li>
+              <li>medic shampoo</li>
+              <li>Essential oils</li>
+              <li>Top quality products</li>
+              <li>Hair Biotin</li>
+            </div>
+            <div class="card-footer">
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************** our pricing end *********** -->
+
+
+  <!-- *************** customer feedback start *********** -->
+
+  <section class="happyclients">
+    <div class="container headings text-center pb-5">
+      <h1 class="text-center font-weight-bold">OUR BEST DISCOUNT PRODUCTS</h1>
+      <p class="text-capitalize pt-1">Brand, Quality & Integrity</p>
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner container">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-shampoo.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Clinical shampoo</h1>
+                <h2>Hair Care</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-soap.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+                <h1>Soap</h1>
+                <h2>Skin care</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/640-690-protein.jpg" class="img-fluid img-thumbnail" alt=""></a>
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                  fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+                <h1>Protein</h1>
+                <h2>Muscle Mass</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-dental.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+                <h1>Oral Care</h1>
+                <h2>Healthy Gums & Teeth</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-vitamin.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Daily Vitamin</h1>
+                <h2>Multivitamins</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-baby.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Baby Care</h1>
+                <h2>Diapers,Milk,Drops,etc.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-mask.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Shield</h1>
+                <h2>Mask,PPE-Kit,face-mask</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-tabs.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Cold</h1>
+                <h2>Antibiotics,Antifungal</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box">
+                <a href="#"><img src="static/100-100-syringe.jpg" class="img-fluid img-thumbnail" alt=""></a>
+
+                <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis architecto quas
+                 | fuga perspiciatis beatae accusamus rem quis voluptas, delectus?</p>
+
+                <h1>Injection</h1>
+                <h2>Syringe</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- *************** customer feedback end *********** -->
+
+
+  <!-- *************** About us section start *********** -->
+
+  <section class="serviceoffers" id="aboutusid">
+    <div class="card bg-dark text-white aboutus-card">
+      <img class="card-img aboutus-img" src="static/720-270.jpg" alt="Card image">
+      <div class="card-img-overlay">
+        <h2 class="card-title text-center">ABOUT US</h2>
+
+        <div class="mx-auto py-2" style="width: 200px;">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+            </na>
+        </div>
+
+        <p class="card-text text-white text-center pt-3">This is a wider card with supporting text below as a natural lead-in
+         | to additional content. This content is a little bit longer. <br>
+         | Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+          <div class="names my-3">
+            <h3>Mahaveer Medicos</h3>
+            <h1 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+             | Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+            </h1>
+          </div>
+          <div class="names my-3">
+            <h3>Medical Needs Fullfilled</h3>
+            <h1 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+            </h1>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12 servicediv">
+          <div class="row">
+            <div class="col-lg-2 col-2 service-icons">
+              <i class="fa-3x fa fa-heart about-icons" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-10 col-10">
+              <h2>HEALTHY <span style="font-size: 17px;">|</span> We Take Care Of Your Healthy Health</h2>
+              <p>We provide accurate, authoritative & trustworthy medicines and help people use their
+               | medicines effectively and safely.</p>
+
+            </div>
+            <div class="col-lg-2 col-2 service-icons">
+              <i class="fa-3x fa fa-plus-square about-icons" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-10 col-10">
+              <h2>MEDICAL <span style="font-size: 17px;">|</span> Medicines For Your Good Health</h2>
+              <p>We provide accurate, authoritative & trustworthy medicines and help people use their
+               | medicines effectively and safely.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *************** About section end *********** -->
+
+  <!-- *************** contact us start *********** -->
+  <section class="contactus" id="contactid">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">CONTACT US</h1>
+      <p class="text-capitalize pt-1">we are here to help and answer any question you might have.</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+          <form action="/index", method="POST">
+
+            <div class="form-group">
+
+              <input type="text" class="form-control" name="user_name" placeholder="User Name" id="username" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+
+              <input type="email" class="form-control" name="email" placeholder="email" id="email" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+
+              <input type="number" class="form-control" name="phone" placeholder="phone" id="mobile" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="d-flex justify-content-center form-button">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************** contact us end *********** -->
+
+  <!-- *************** newsletter start *********** -->
+
+  <section class="newsletter" id="newsletterid">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">send message to mahaveer medicos via mail</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control news-input" placeholder="Your Email">
+            <div class="input-group-append">
+              <span class="input-group-text"><a href="mailto: mahaveermedicosdwarka@gmail.com" class="text-white">@example.com</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************** newsletter end *********** -->
+
+  <!-- *************** footer start *********** -->
+
+  <footer class="footersection" id="footersectionid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 footer-div">
+          <div>
+            <div class="container p-0 footer-map">
+              <h3 class="text-center">Visit Mahaveer Medicos</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.1196484173456!2d77.02302931440632!3d28.596187192477284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ab0fdc37e5d%3A0xf509ddbcc811ecb7!2sMahaveer%20Medicos!5e0!3m2!1sen!2sin!4v1628485084724!5m2!1sen!2sin"
+               | width="100%" height="auto" style="border: 2px solid white;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+          <div class="text-center">
+            <h3>Navigation link</h3>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">price</a></li>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-12 footer-div">
+          <div>
+            <h3>Follow us :</h3>
+            <div class="social-menu pb-4">
+              <ul class="double-header two footer-icon-menu">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square footer-icon" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.whatsapp.com" target="_blank"><i class="fa fa-whatsapp footer-icon" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter footer-icon" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="container newsletter-main">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control news-input" placeholder="Your-Email@mail.com">
+                    <div class="input-group-append">
+                      <span class="input-group-text font-weight-bold"><a href="mailto: mahaveermedicosdwarka@gmail.com" class="text-white">EMAIL US</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 text-center">
+        <p>copyright @2021 All Right Reserved | MahvaveerMedicos.com</p>
+      </div>
+
+      <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="mybtn"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- *************** footer end *********** -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   | integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+   | integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+   | crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+   | integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+   | crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   | integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+   | crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+   | integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+   | crossorigin="anonymous"></script>
+
+  <script src="/static/mv.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+/* top navbar header  start*/
+
+@media(max-width: 1225px){
+
+    .double-header-part-2{
+display: none;
+    }
+.double-header-part-1{
+    width: 100%;
+}
+}
+@media(max-width:890px){
+#one{
+    font-size: 12px;
+}
+}
+
+@media(max-width: 740px){
+    .row-double-header{
+        display: none;
+    }
+}
+/* top navbar header  end*/
+
+
+@media(max-width: 768px){
+    .nav-item{
+        text-align: center !important;
+    }
+    .pricing, .happyclients, .contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+    .contactus p{
+        padding: 0 50px;
+    }
+    .footer-div:nth-child(2){
+text-align: left !important;
+    }
+    .footer-div{
+        margin: 30px 0;
+    }
+}
+
+
+@media(max-width: 790px){
+    .nav-item{
+        text-align: center !important;
+    }
+    .pricing, .happyclients, .contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+    .contactus p{
+        padding: 0 50px;
+    }
+    .footer-div:nth-child(2){
+text-align: left !important;
+    }
+    .footer-div{
+        margin: 30px 0;
+    }
+}
+
+
+
+@media(min-width: 790px){
+    .nav-item{
+        text-align: center !important;
+    }
+    .pricing, .happyclients, .contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+    .contactus p{
+        padding: 0 50px;
+    }
+    .footer-div:nth-child(2){
+text-align: left !important;
+    }
+    .footer-div{
+        margin: 30px 0;
+    }
+}
